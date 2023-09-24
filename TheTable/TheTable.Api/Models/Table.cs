@@ -2,7 +2,6 @@
 {
     public class Table
     {   
-        public int Id { get; set; }
         public int TableID { get; set; }
         public int CustomerID { get; set; }
         public int WaiterID { get; set; }

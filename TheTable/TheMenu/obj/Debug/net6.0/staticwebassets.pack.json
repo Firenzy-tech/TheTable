@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Juan\\source\\repos\\TheTable\\TheTable\\TheMenu\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Juan\\source\\repos\\TheTable\\TheTable\\TheMenu\\obj\\Debug\\net6.0\\build-gz\\7tFSyXEC.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Juan\\source\\repos\\TheTable\\TheTable\\TheMenu\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Juan\\source\\repos\\TheTable\\TheTable\\TheMenu\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Juan\\source\\repos\\TheTable\\TheTable\\TheMenu\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TheMenu.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TheMenu.props",
+      "PackagePath": "build\\TheMenu.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TheMenu.props",
+      "PackagePath": "buildMultiTargeting\\TheMenu.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TheMenu.props",
+      "PackagePath": "buildTransitive\\TheMenu.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

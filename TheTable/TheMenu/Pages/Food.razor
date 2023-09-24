@@ -1,0 +1,28 @@
+﻿@page "/food"
+@using TheMenu.Model;
+
+<MudContainer>
+    <MudTable Items="foodDTOs">
+        <HeaderContent>
+            <MudTh>UrlImagen</MudTh>
+            <MudTh>Name</MudTh>
+            <MudTh>Price</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd>
+                <img src="@context.UrlImagen" alt="@context.Name" style="max-width: 100px; max-height: 100px;" />
+            </MudTd>
+            <MudTd>@context.Name</MudTd>
+            <MudTd>@context.Price.ToString("C")</MudTd>
+        </RowTemplate>
+    </MudTable>
+</MudContainer>
+
+@code {
+    List<FoodDTO> foodDTOs = new List<FoodDTO>
+    {
+        new FoodDTO { Id = 1, Name = "Producto 1", Price = 19.99M, UrlImagen = "https://hips.hearstapps.com/hmg-prod/images/sandwich-en-rollitos-1674032576.jpg?crop=0.670xw:1.00xh;0.166xw,0&resize=1200:*" },
+        new FoodDTO { Id = 2, Name = "Producto 2", Price = 29.99M, UrlImagen = "https://hips.hearstapps.com/hmg-prod/images/sandwich-en-rollitos-1674032576.jpg?crop=0.670xw:1.00xh;0.166xw,0&resize=1200:*" },
+        new FoodDTO { Id = 3, Name = "Producto 3", Price = 9.99M,  UrlImagen = "ruta/imagen3.jpg" },
+    };
+}
