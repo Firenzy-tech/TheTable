@@ -2,6 +2,7 @@
 {
     public class Billing
     {
+        public int Id { get; set; }
         public int BillingID { get; set; }
         public int TableID { get; set; }
         public int WaiterID { get; set; }
